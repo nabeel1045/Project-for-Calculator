@@ -1,0 +1,114 @@
+h1 {
+    text-align: center;
+}
+section.main {
+    background: #e1e1e2;
+    width: 15%;
+    padding: 26px 20px;
+    margin: auto;
+    height: 400px;
+    border-radius: 16px;
+}
+section.main form {
+}
+section.main form p {
+    font-weight: bold;
+    color: #1d5e76;
+}
+section.main form input#screen {
+    width: 91%;
+    margin-bottom: 20px;
+    padding: 7px 10px;
+    text-align: right;
+    font-size: 35px;
+    border-radius: 7px;
+    border: 2px solid #000;
+}
+section.main form br {
+}
+section.main form input.number {
+    width: 21%;
+    padding: 15px;
+    margin-right: 8px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin: 0px 4px 10px;
+    border: 2px solid #e1e1e2;
+}
+section.main form input.operator {
+    background: #f7922d;
+    color: #fff;
+}
+section.main form input.result {
+    background-color: #20b320;
+    color: #fff;
+}
+section.main form input.clear {
+    background: #e91414;
+    color: #fff;
+}
+section.main form input.number:hover{
+    background-color: #323330;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+section.main form input:hover {
+    border: 2px solid yellowgreen;
+}
+
+@media all and (max-width : 1440px) {
+    section.main{
+        width: 20%;
+    }
+    
+}
+@media all and (max-width : 1380px) {
+    section.main{
+        width: 22%;
+    }
+    
+}
+
+@media all and (max-width : 1280px) {
+    section.main{
+        width: 27%;
+    }
+    
+}
+
+@media all and (max-width : 1080px) {
+    section.main{
+        width: 29%;
+    }
+    
+}
+@media all and (max-width : 980px) {
+    section.main{
+        width: 37%;
+    }
+    
+}
+@media all and (max-width : 768px) {
+    section.main{
+        width: 44%;
+    }
+    
+}
+@media all and (max-width : 640px) {
+    section.main{
+        width: 60%;
+    }
+    
+}
+@media all and (max-width : 480px) {
+    section.main{
+        width: 80%;
+    }
+    
+}
+@media all and (max-width : 360px) {
+    section.main{
+        width: 91%;
+    }
+    
+}
